@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'custom_check_internet.dart';
+import '../core/services/connectivity_service.dart';
 
 class ConnectivityWidget extends StatefulWidget {
   final Widget onlineChild;

@@ -31,7 +31,7 @@ extension NavigatorHelper on BuildContext {
 
   void pop() {
     Navigator.of(this).pop();
-  }
+  } 
 
   void popWithAnimation({
     AnimationType animationType = AnimationType.slide,
